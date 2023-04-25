@@ -1,7 +1,9 @@
 ## Buttons_InspectorP
+
 Using the buttons on InspectorP devices.
 
 ### How to Run
+
 A connected InpspectorP device is necessary to run this sample.
 This script using the button events 'OnPressed' and 'OnReleased' from two buttons
 of the InspectorP. Each event will call the according function. Starting this sample
@@ -10,4 +12,5 @@ the results can be seen when pressing the buttons on the device.  More informati
 "Audio-Visual Feedback InspectorP
 
 ### Topics
-Device, InspectorP, Hardware, Sample, SICK-AppSpace
+
+device, inspectorp, hardware, sample, sick-appspace
