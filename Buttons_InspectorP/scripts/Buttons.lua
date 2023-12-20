@@ -14,14 +14,14 @@ local beeper = Beeper.create()
 
 --Start of Function and Event Scope---------------------------------------------
 
---Function is called when the 'OnPressed' event was raised
+---Function is called when the 'OnPressed' event was raised
 local function skipButtonPressed()
   beeper:beep(25, 200, 50)
   print('Skip button is was pressed')
 end
 gSkipButton:register('OnPressed', skipButtonPressed)
 
---Function is called when the 'OnReleased' event was raised
+---Function is called when the 'OnReleased' event was raised
 local function enterButtonReleased()
   beeper:beep(1, 500, 50)
   print('Enter button was released')
